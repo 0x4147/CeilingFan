@@ -19,4 +19,9 @@ public class Anticlockwise implements FanDirectionState{
 		System.out.println("Current fan direction is anticlockwise");
 	}
 
+	@Override
+	public String getDirection() {
+		return "Anticlockwise";
+	}
+
 }

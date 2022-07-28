@@ -70,6 +70,13 @@ public class Fan {
 		directionState.getDirectionState();
 	}
 	
+	public int getCurrentSpeed() {
+		return speedState.getSpeed();
+	}
+	
+	public String getCurrentDirection() {
+		return directionState.getDirection();
+	}
 	public void cord1() {
 		System.out.println("*----------------------------------------------*");
 		speedState.cord1();

@@ -19,4 +19,9 @@ public class Speed2 implements FanSpeedState{
 		System.out.println("Current fan Speed is 2");
 	}
 
+	@Override
+	public int getSpeed() {
+		return 2;
+	}
+
 }

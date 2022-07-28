@@ -19,4 +19,10 @@ public class Speed3 implements FanSpeedState{
 		System.out.println("Current fan Speed is 3");
 	}
 
+	@Override
+	public int getSpeed() {
+		// TODO Auto-generated method stub
+		return 3;
+	}
+
 }
